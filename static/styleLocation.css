@@ -1,0 +1,8 @@
+.location{
+    height:25vh;
+    background: rgba(234, 49, 32, 0.874);
+    color:black;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}

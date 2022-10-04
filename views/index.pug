@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    title Fun Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src='./static/logo.jpg')
+                div.acadName FDA
+            li  #[a(href="/") Home]
+            li #[a(href="/") Services]
+            li #[a(href="/") Location]
+            li #[a(href="/") Contact us]
+    section#introSection 
+        div Welcome to FUN Dance Academy 
+        div.small when in doubt, dance it out
+    section#missionSection 
+        h2 Our Mission
+        div.card
+            h3 Dance for fun
+            div.card-box 
+                div.card-img 
+                    img(src='/static/1.png')
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur
+        div.card
+            h3 Dance to focus
+            div.card-box 
+                div.card-img 
+                    img(src='/static/2.png')
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur   
+        div.card
+            h3 Dance for passion 
+            
+            div.card-box 
+                div.card-img
+                    img(src='/static/3.png')
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur
+
+    section#sponsorSection 
+        h2 Our Sponsor
+        div#sponsor 
+            img(src="/static/sponsor1.png", alt="Sponsor image", class='spimg')
+            img(src="/static/sponsor2.jpg", alt="Sponsor image", class='spimg')
+            img(src="/static/sponsor3.png", alt="Sponsor image", class='spimg')
+    footer#footer 
+        | Copyrights reserved by FunDanceAcademy.com | All rights reserved.
+
+    script
+      include ../static/index.js

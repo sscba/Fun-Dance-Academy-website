@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+h1{
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.container{
+    min-height: 74vh;
+    margin:32px 0;
+}
+.myForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 36%;
+    padding: 9px;
+    margin: 9px;
+    border:2px solid rgb(144, 91, 91);
+    border-radius:7px;
+    outline:none;
+}
+.btn{
+    padding:12px 13px;
+    border: 2px solid black;
+    border-radius:10px;
+    font-size:20px;
+    margin-bottom: 12px;
+    cursor:pointer;
+    background-color: #f36161;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}

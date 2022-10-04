@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+#navbar{
+    background-color: #f36161;
+    padding: 7px 3px;
+    font-family: 'Pacifico', cursive;
+}
+#navbar ul{
+    display:flex;
+    align-items: center;
+    
+}
+#navbar li{
+    list-style:none;
+    padding: 11px 43px;;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size:1.3rem;
+    
+}
+#navbar li a:hover{
+    text-decoration: none;
+    color: white;
+    font-size:1.3rem;
+    
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0px 21px;
+}
+#logo img{
+    height: 58px;
+    border-radius: 100%;
+    filter: invert(1);
+}
+.acadName{
+    margin-left:12px;
+    font-size: 25px;
+}
+#introSection{
+    background: center / cover no-repeat url("/static/bg.jpg"); 
+    height:412px;
+    background-color: rgba(194, 93, 93, 0.573);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 42px;;
+    font-family: 'Pacifico', cursive;
+    padding-bottom:52px;
+}
+.small{
+    font-family: 'Ms Madi', cursive;
+    font-size:28px;
+}
+#missionSection{
+    height:300px;
+    margin: auto;
+    width: 73%;;
+    display: block;
+}
+
+#missionSection h2{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 34px;
+}
+.card{
+    background-color: rgba(240, 245, 248, 0.904);
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 27%;
+    margin: 10px 32px;
+    padding: 5px;
+    height: 199px;
+}
+.card h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 29px -8px;
+}
+.card-img{
+    height:100px;
+    padding: 2px 18px;
+    
+    
+}
+.card-img img{
+    height: inherit;
+    
+}
+.card-content{
+    padding: 0px 16px;
+    font-size: 19px;
+}
+
+#sponsorSection{
+    height:300px;
+    background-color:rgb(212 61 61 / 80%);
+}
+#sponsorSection h2{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 34px;
+}
+#sponsor{
+    height:120px;
+    max-width: 1000px;
+    margin: 49px auto;
+}
+.spimg{
+    height: 80%;
+    margin: 0px 70px;
+    
+}
+#footer{
+    height:60px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
